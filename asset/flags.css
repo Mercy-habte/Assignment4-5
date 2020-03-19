@@ -1,0 +1,7 @@
+.hungary {
+      background: linear-gradient(to bottom, #CD2A3E calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #436F4D calc(100% / 3 * 2)); }
+  
+     
+
+    .iceland {
+      background: linear-gradient(to bottom, transparent 43%, #D72828 43%, #D72828 54%, transparent 54%), linear-gradient(to right, transparent 34%, #D72828 34%, #D72828 41%, transparent 41%), linear-gradient(to right, transparent 30%, white 30%, white 45%, transparent 45%), linear-gradient(to bottom, transparent 38%, white 38%, white 59%, transparent 59%), #003897; }
