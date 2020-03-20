@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(3, 3, 70);
+    color: white;
+}
+header {
+
+    background-color:rgb(0, 0, 0);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 98%
+}
+nav > ul >li{
+    padding: 15px 3px;
+    font-size: 20px;
+    display: inline-block;
+}
+nav > ul > li> a{
+    color: White;
+    text-decoration: none;
+} 
+nav > ul > li:hover {
+    background-color:rgba(20, 0,110, 0.6);
+    font-size: 25px;
+}
+nav > ul > li> a:hover,a:active{
+    color: cyan;
+}
+.About{
+display: flex;
+padding: 100px;
+margin-left: 0px;
+flex-direction: row-reverse;
+border: none;
+border-bottom: solid 1px white;
+}
+section > div >img{
+    border-radius: 50%;
+}
+.Hobbies{
+    padding: 100px;
+margin-left: 0px;
+flex-direction: row-reverse;
+border: none;
+border-bottom: solid 1px white;
+}
