@@ -8,7 +8,7 @@
      
 
 </head>
-<body style="background-color:whitesmoke">
+<body>
   <!-- we'll begin -->
 
   
@@ -28,72 +28,76 @@
 </header>
 
     
-   <div class="bio" >
- 
-    <img src= "./asset/image/Flower.jpg"alt="profile picture of my CV"style="width:300px;height:350px;"></td>
-    
-      <h1 style="color:#ac3b61">Mercy Habte</h1>
-      <h3 style="color:#ac3b61">Student, Addis Ababa university</h3>
-      <p style="color:#ac3b61;"><i>Hi, My name is Mercy Habte. <br> I am a second year software engineering Student.
-        I am well experianced in <strong>object oriented programming languages.</strong> <br> Other than my school work i love to volunteer and do extracurricular activities.</strong>.</i></p>
-   
-</div>
+<section class="About">
+  <div><img src= "image/Mee.jpg" alt="profile picture of my CV"style="width:250px;height:200px;"></div>
+      <div class="bio"> <h1 >Mercy Habte</h1>
+         <h3 >Student, Addis Ababa university</h3>
+         <p ><i>Hi, My name is Mercy Habte. <br>  I am a second year software engineering student. I am well experianced in <strong>object oriented programming languages.</strong> .<br> Other than my school work i love to volunteer and do extracurricular activities.</i></p>
+       </div>
+</section>
 <div class="clear" >
 <br>
 <h3 >Contact Me....</h3>
-<form>
-<label for="fName" style="font-size: 100%;">First Name </label>
-<br>
-&nbsp;&nbsp;&nbsp;
-<input type="text" name="fName" id="fName" placeholder="Your Name..." pattern="[a-zA-Z][a-zA-Z ]{2,}\S" required>      
-&nbsp;&nbsp;&nbsp;
-<br><br>
-<label for="sName" style="font-size: 100%;">Last Name </label>
-<br>
-&nbsp;&nbsp;&nbsp;
-<input type="text" name="sureName" id="sName" placeholder="Your Last Name..." pattern="[a-zA-Z][a-zA-Z ]{2,}\S" required><br>
-<br>
-<label for="email" style="font-size: 100%;">Email </label>
-<br>
-&nbsp;&nbsp;&nbsp;
-<input type="Emial" name="email" id="email" placeholder="A Valid Email.." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$ "required>
-<br><br>
-<label for="password" style="font-size: 100%;">Password</label>
-<br>
-&nbsp;&nbsp;
-<input type="password" name="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required>
-
-<br><br>
-<label for="Phone Number" id="teL" style="font-size: 100%" pattern="[0-9]"
-required>Phone Number </label>
-<br>
-&nbsp;&nbsp;&nbsp;
-<input type="tel" name="tel" id="tel" placeholder="Phone Number" pattern="[0-9]" required>
-<br><br>
-
-Where Are You From:
-&nbsp; &nbsp;
-<select name="Country" id="">
-  <option value="Af">Africa</option>
-  <option value="As">Asia</option>
-  <option value="Au">Austrialia</option>
-  <option value="Am">America</option>
-  
-<br>
-
-</select>
-<br><br>
-Please Leave a Comment here
-<br>
-<textarea name="" id="" cols="30" rows="10"></textarea>
-<br><br>
-&nbsp;&nbsp;&nbsp;
-<input type="Submit" value="Submit" style="background-color:navajowhite; color:seagreen;font-size:100%;font-size:80%;font-family: Georgia, 'Times New Roman', Times, serif;">
-
-<div class="mapouter"><div class="gmap_canvas">
+<section class="ConF">
+  <div class="Form">
+    <form>
+    <label for="fName" style="font-size: 100%;">First Name </label>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <input type="text" name="fName" id="fName" placeholder="Your Name..." pattern="[a-zA-Z][a-zA-Z ]{2,}\S" required>      
+    &nbsp;&nbsp;&nbsp;
+    <br><br>
+    <label for="sName" style="font-size: 100%;">Last Name </label>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <input type="text" name="sureName" id="sName" placeholder="Your Last Name..." pattern="[a-zA-Z][a-zA-Z ]{2,}\S" required><br>
+    <br>
+    <label for="email" style="font-size: 100%;">Email </label>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <input type="Emial" name="email" id="email" placeholder="A Valid Email.." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$ "required>
+    <br><br>
+    <label for="password" style="font-size: 100%;">Password</label>
+    <br>
+    &nbsp;&nbsp;
+    <input type="password" name="password" id="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+    title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    
+    <br><br>
+    <label for="Phone Number" id="teL" style="font-size: 100%" pattern="[0-9]"
+    required>Phone Number </label>
+    <br>
+    &nbsp;&nbsp;&nbsp;
+    <input type="tel" name="tel" id="tel" placeholder="Phone Number" pattern="[0-9]" required>
+    <br><br>
+    
+    Where Are You From:
+    &nbsp; &nbsp;
+    <select name="Country" id="">
+      <option value="Af">Africa</option>
+      <option value="As">Asia</option>
+      <option value="Au">Austrialia</option>
+      <option value="Am">America</option>
+      
+    <br>
+    
+    </select>
+    <br><br>
+    Please Leave a Comment here
+    <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <br><br>
+    &nbsp;&nbsp;&nbsp;
+    <input type="Submit" value="Submit" style="background-color:navajowhite; color:seagreen;font-size:100%;font-size:80%;font-family: Georgia, 'Times New Roman', Times, serif;">
+    </div>
+<div class="Map"><div class="mapouter"><div class="gmap_canvas">
   <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-  </div></div>
+  </div></div></div>
+
+
+</section>
+
+
   
   
 
