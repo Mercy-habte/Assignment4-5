@@ -1,16 +1,29 @@
  .row1,.row2,.row3{
   width: 80%;
-  height: 100px;
+  height: 100%;
   background:lightgrey;
   margin: auto;
-  padding: 10px;
+  padding: 15px;
   display: flex;
+ }
+ .Names{
+  width: 80%;
+  height: 20px;
+  background:lightgrey;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+ }
+ .Names > div >h3{
+   margin-left: 100px;
+   color: darkblue;
  }
 body{
   background-color: whitesmoke;
 }
 .Germany{
   margin-left: 5%;
+  margin-top: 10px;
   width: 50px;
   padding: 5%;
   background: red;
@@ -61,17 +74,18 @@ body{
   left: 0;
 }
 
-.Cameroon{
+.Mali{
   margin-left: 5%;
   margin-top: 10px;
   width: 50px;
   padding: 5%;
-  background:red;
+  background:yellow;
   position: relative;
 }
 
-.Cameroon::before{
+.Mali::before{
   content: "";
+  left: 0;
   width: 33.3%;
   height:100%;
   background-color:green;
@@ -79,11 +93,11 @@ body{
   bottom: 0;
   left: 0;
 }
-.Cameroon::after{
-  content: url(https://t3.ftcdn.net/jpg/01/65/62/92/240_F_165629234_RU2TizwObXvESLAXGnSH76JjUsNsaQKr.jpg);
+.Mali::after{
+  content: "";
   width: 33.3%;
   height:100%;
-  background-color:yellow ;
+  background-color:red ;
   position: absolute;
   right: 0;
   top: 0;
@@ -107,6 +121,15 @@ body{
   top: 0;
   left: 0;
 }
+.Botswana::before{
+  content: "";
+  width: 100%;
+  height:2.5%;
+  background-color:white;
+  position: absolute;
+  top: 43%;
+  left: 0;
+}
 .Botswana::after{
   content: "";
   width: 100%;
@@ -116,6 +139,24 @@ body{
   top:45%;
   left: 0;
 }
+.Botswana::before{
+  content: "";
+  width: 100%;
+  height:2.5%;
+  background-color:white;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+}
+/* .Botswana::after{
+  content: "";
+  width: 100%;
+  height:2.5%;
+  background-color:white ;
+  position: absolute;
+  bottom:30%;
+  left: 0;
+} */
 
 
 .France{
@@ -146,6 +187,278 @@ body{
   top: 0;
   
 }
+.Netherland{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background:red;
+  position: relative;
+}
+.Netherland:before{
+  content: "";
+  width: 100%;
+  height:33.33%;
+  background-color: rgb(56, 56, 202);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Netherland::after{
+  content: "";
+  width: 100%;
+  height: 33.33%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Belgium{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background:yellow;
+  position: relative;
+}
+
+.Belgium::before{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.Belgium::after{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:red ;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+.Austria{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background: white;
+  position: relative;
+}
+.Austria:before{
+  content: "";
+  width: 100%;
+  height:33.33%;
+  background-color:red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Austria::after{
+  content: "";
+  width: 100%;
+  height: 33.33%;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.Italy{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background:white;
+  position: relative;
+}
+
+.Italy::before{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:Green;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.Italy::after{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:orange ;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+
+.Romania{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background:yellow;
+  position: relative;
+}
+
+.Romania::before{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:rgb(56, 56, 202);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.Romania::after{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:red ;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+.Belarus{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background:red;
+  position: relative;
+}
+.Belarus::before{
+  content: "";
+  width: 100%;
+  height:33.33%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Belarus::after{
+  content: "";
+  width: 100%;
+  height:33.33%;
+  background-color:white ;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Nigeria{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background:white;
+  position: relative;
+}
+
+.Nigeria::before{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:green;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.Nigeria::after{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:green ;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+
+.Poland{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background:red;
+  position: relative;
+}
+.Poland::before{
+  content: "";
+  width: 100%;
+  height:50%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Lavita{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background:rgb(156, 34, 34);
+  position: relative;
+}
+
+.Lavita::before{
+  content: "";
+  width: 100%;
+  height:40%;
+  background-color:rgb(156, 34, 34);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Lavita::after{
+  content: "";
+  width: 100%;
+  height:20%;
+  background-color:white ;
+  position: absolute;
+  top:40%;
+  left: 0;
+}
+
+.Gabon{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background: yellow;
+  position: relative;
+}
+.Gabon:before{
+  content: "";
+  width: 100%;
+  height:33.33%;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Gabon::after{
+  content: "";
+  width: 100%;
+  height: 33.33%;
+  background-color:rgb(0, 110, 255);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+   
+
+
 
 
 

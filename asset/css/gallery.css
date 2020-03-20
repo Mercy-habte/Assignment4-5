@@ -66,9 +66,12 @@ h3{
 
 }
 
-.row1, .row2,.row3{
+section.row1, .row2,.row3{
+    align-items: center;
     background-color: lightcyan;
     display: flex;   
+    flex-direction: row-reverse;
+    flex: 200px;
 }
 div.pic{
     margin: 5px;
