@@ -1,4 +1,4 @@
- .row1{
+ .row1,.row2,.row3{
   width: 80%;
   height: 100%px;
   background:lightgrey;
@@ -80,7 +80,7 @@ body{
   left: 0;
 }
 .Cameroon::after{
-  content: "";
+  content: url(https://t3.ftcdn.net/jpg/01/65/62/92/240_F_165629234_RU2TizwObXvESLAXGnSH76JjUsNsaQKr.jpg);
   width: 33.3%;
   height:100%;
   background-color:yellow ;
@@ -116,16 +116,37 @@ body{
   top:45%;
   left: 0;
 }
-.Botswana::after{
-  content: "";
-  width: 100%;
-  height:5%;
-  background-color:white ;
-  position: absolute;
-  top:40%;
-  left: 0;
-  bottom: 50%;
+
+
+.France{
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 50px;
+  padding: 5%;
+  background:white;
+  position: relative;
 }
+
+.France::before{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:rgb(56, 56, 202);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.France::after{
+  content: "";
+  width: 33.3%;
+  height:100%;
+  background-color:red ;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+
 
 
 
