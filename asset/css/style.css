@@ -3,27 +3,31 @@
     margin: 0;
 }
 body{
-    background-color: lightskyblue;
-  border: 10px lightgrey solid;
+    background-color:linen;
+    color: white;
     margin: 10px auto;
 }
 p{
-    color: whitesmoke;
+    color: honeydew;
+    font-size: 18px;
 }
 
 header{
 
-    background-color:lightcoral;
+    background-color:lightseagreen;
+    color: white;
     position: fixed;
     top: 0;
-    width: 98%
+    width: 100%;
+    
 
 }
-section{
 
-    padding: 5px 30px;
-    margin-top: 100px;    
-    font-family: Arial, Helvetica, sans-serif;
+section{
+    background-color: rgb(3, 3, 70);
+    padding: 10px 30px;
+    margin: 40px 100px 10px 100px;  
+    font-family: 'Times New Roman', Times, serif;
 }
 article{
     line-height: 25px;
@@ -33,8 +37,17 @@ article{
 }
 
 .title{
+    color: lightsalmon;
     font-size: 23px;
     font-weight: bold;
+}
+section > article > ul >  li{
+    font-size: 20px;
+    color: lightseagreen;
+}
+
+section > article > ul >  li > p{
+    font-size: 20px;
 }
 
 .date{
@@ -50,16 +63,20 @@ nav > ul >li{
 }
 
 nav > ul > li> a{
+    color: White;
     text-decoration: none;
 } 
-nav > ul > li> a:hover,a:active{
-    color: olive;
-}
+
 nav > ul > li:hover {
     background-color:honeydew;
     
 
 }
+nav > ul > li> a:hover,a:active{
+        color: cyan;
+        font-size: 25px;
+    }
+
 img{
  width:400px;
     height: 400px;
@@ -83,18 +100,13 @@ input:focus{
     width: 25%;
 }
  
-div{
-    border: none;
-    border-bottom: 20px solid lightslategrey;
 
-}
 .clear{
     width: 95%;
     padding: 25px;
-    border: 3px solid navy;
     margin: 0px;
 }
-h3{
+/* h3{
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
@@ -102,4 +114,30 @@ h3{
     position: relative;
     padding-bottom: 0rem;
 
+} */
+
+section.About{
+display: flex;
+border: none;
+border-bottom: 1p solid x white;
+
+}
+
+.row1, .row2,.row3{
+    background-color: lightcyan;
+    display: flex;  
+    border-bottom: 1px solid white;; 
+}
+div.pic{
+    margin: 5px;
+    border-radius: 50px;
+    float: left;
+    width: 100%;
+}
+div.pic img{
+    width: 100%;
+    height: 400px;
+}
+.ConF{
+    display: flex;
 }
